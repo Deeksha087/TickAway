@@ -1,0 +1,87 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#header {
+  font-family: 'Nerko One', cursive;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Nav bar */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 3% 10% 3%;
+  text-align: left;
+}
+
+.colored-section {
+  background-color: black;
+  color: #fff;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #9f5f80;
+}
+
+/* Carousel base class */
+.carousel-item {
+  position: relative;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.slide-text{
+  position: absolute;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.5);
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 601px) {
+  .text-size{
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .text-size {
+    font-size: 30px;
+  }
+}
+
+/* Cards*/
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* footer*/
+.social-icon {
+  margin: 20px 10px;
+}

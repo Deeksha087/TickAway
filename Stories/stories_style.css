@@ -1,0 +1,57 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#header {
+  font-family: 'Nerko One', cursive;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Nav bar */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 3% 10% 3%;
+  text-align: left;
+}
+
+.colored-section {
+  background-color: black;
+  color: #fff;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #9f5f80;
+}
+
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media screen and (min-width: 601px) {
+  .title{
+    font-size: 25px;
+  }
+  .title1{
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .title {
+    font-size: 20px;
+  }
+  .title1{
+    font-size: 20px;
+  }
+}
